@@ -1,0 +1,6 @@
+language: java
+script: mvn -f backend/pom.xml test
+
+env:
+  global:
+    - secure: "i+j5JnoR9JZEx2nyO2JRyFX+39zt/q+hiAOBMTsU6NLC13C5b1s2xaShfmP4Yr/Pw9Z4h6CCfvYvVZtFHOqGbAWlxUqJOZn5+yXZvqyQ6zftHhoSgp1nq4iL10RnYo4ksoEBcbe5uYNN6fKm+aw84loSz64Ae3gB+jAi46ndau8="

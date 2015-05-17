@@ -1,0 +1,518 @@
+
+
+*, HTML, BODY, DIV, DL, DT, DD, UL, OL, LI, H1, H2, H3, H4, H5, H6, PRE, FORM, LABEL, FIELDSET, INPUT, P, BLOCKQUOTE, TH, TD
+{
+	margin: 0;
+	padding: 0;
+	font-color: black;
+}
+
+
+ol, ul, li {
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: "litera_light";
+	src: url("Litera-Light.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: "caviar_normal";
+	src: url("CaviarDreams.ttf") format("opentype");
+}
+html {
+	background-image: url("../img/light_grey.png");
+	width: 100%;
+	height: 100%;
+	font-family: Sans-serif;
+}
+body {
+	background: rgba(200,200,200,0.2);
+}
+
+#upper-wrapper {
+	background: url("../img/upperwrapper.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	height: 350px;
+	width: 100%;
+}
+
+#upper-wrapper h1 {
+	font-family: "caviar_normal";
+	background: rgba(0,0,0,0.5);
+	height: 80px;
+	font-size: 35px;
+	color: white;
+	top: 35%;
+	line-height: 80px;
+	position:relative;
+	text-align: center;
+}
+
+nav {
+	background: rgba(40,40,40,1);
+	opacity: 0.9;
+	width: 100%;
+	z-index: 1;
+	height: 40px;
+	margin-top: 230px;
+	font-family: "Oswald";
+}
+nav ul {
+	margin-left: 35%;
+}
+nav ul ul {
+	margin-left:0!important;
+	display: none;
+}
+nav li {
+	float:left;
+	list-style: none;
+}
+nav li p {
+	height: 40px;
+	line-height: 40px;
+}
+
+
+nav a.Home {
+	width: 145px!important;
+}
+
+
+nav a {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+    display: block;
+	color: white;
+	text-decoration:none;
+}
+nav li:hover ul {
+	position: absolute;
+    display: inline-block; 
+}
+
+
+nav ul ul li {
+	float: none;
+	background: rgba(120,120,120,0.8);
+	position: relative!important;
+}
+
+nav ul ul li {
+	padding: 0px 22px;
+	float: none;
+	position: relative!important;
+}
+
+nav ul ul li {
+	padding: 0px 22px;
+	float: none;
+	position: relative!important;
+}
+
+nav ul ul li p {
+	width: 300px;
+}
+
+nav ul ul li:hover a {
+	color: black;
+}
+
+
+
+nav a:hover p {
+	text-transform: bold;
+	color: black;
+	background: white;
+	font-size: 20px;
+}
+
+nav li.Selected p {
+	color: black;
+	background: white;
+} 
+
+.sticky {
+	background: rgba(0,0,0,0.6);
+	margin-top: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#wrapper {
+	background: white;
+	margin-top: auto;
+	height: 100%;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#project {
+	padding-top: 50px;
+}
+
+#project, #application {
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+#project h2, #application h2 {
+	padding-left: 10px;
+	line-height: 40px;
+	font-family: "caviar_normal";
+	font-weight: bold;
+	font-size: 28px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+#project h2 {
+	background: rgba(2,100,100,0.6);
+}
+#application h2 {
+	background: rgba(128,0,0,0.6);
+}
+
+#project p, #application p {
+	font-size: 18px;
+	
+	position:relative;
+}
+
+.chartsearch, .chartcont, .charttext, .chartcont0, .charttext0, .chartcont1, .charttext1, .chartcont2, .charttext2 {
+	padding-top: 54px;
+	background: rgba(255,255,255,1);
+	height: 650px;
+	margin-bottom: 40px;
+} 
+
+.chartsearch {
+	float:left;
+}
+
+.chartcont, .charttext {
+	float:right;
+}
+
+.charttext, .chartsearch {
+	width: 100px;
+}
+
+.chartcont {
+	width: 600px;
+}
+
+
+.chartcont0 h2, .chartcont1 h2, .chartcont2 h2, .charttext0 h2, .charttext1 h2, .charttext2 h2 {
+	padding-left: 10px;
+	line-height: 40px;
+	font-family: "caviar_normal";
+	font-weight: bold;
+	font-size: 28px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	width: 90%;
+	color: white;
+}
+
+
+
+.chartcont0 h2, .chartcont1 h2, .chartcont2 h2 {
+	background: rgba(2,100,100,0.6);
+	margin-left: 70px!important;
+}
+
+.charttext0 h2, .charttext1 h2, .charttext2 h2 {
+	background: rgba(128,0,0,0.6);
+
+}
+
+.chartcont0, .chartcont1, .chartcont2{
+	width: 70%;
+	height: 650px;
+}
+
+.charttext0, .charttext1, .charttext2 {
+	overflow: hidden;
+	margin-right: 20px;
+	float:right!important;
+	width:22%;
+}
+
+.charttext0 p, .charttext1 p, .charttext2 p {
+	padding-bottom: 20px;
+	color:black;
+}
+
+#chart0, #chart1, #chart2 {
+	margin-left: 50px;
+	width: 95%;
+	height: 500px;
+}
+
+.box {
+	background: #eee;
+}
+
+
+.box-inner p {
+	width: 90%;
+}
+
+.box-inner a {
+	color: #3D3D3D;
+}
+
+.box-inner a:hover {
+	color: black;
+	text-transform: bold;
+	text-decoration: underline;
+}
+
+.box, .box .antiscroll-inner {
+	background: #eee;
+	height: 450px;
+	font: 14px Helvetica, Arial;
+}
+
+.box-wrap {
+    width: 220px; 
+	background: #eee;
+	margin-left: 20px;
+	margin-top: 10px;
+	border: 1px solid #999;
+}
+
+.box-inner {
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	padding: 10px;
+	color: #999;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.party {
+	border: none;
+	height: 35px;
+	width: 35px;
+
+}
+
+.amount {
+	color: black;
+}
+
+.max-min {
+	width: 35px;
+	height: 35px;
+	opacity: 0.5;
+}
+
+tr {
+	width: 20%;
+}
+
+.motions a{
+	width: 10px;
+
+}
+
+/*Search.html*/
+
+.chartcontwrapper h2 {
+    padding-left: 10px;
+    line-height: 40px;
+    font-family: "caviar_normal";
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+    width: 95%;
+    color: white;
+}
+
+.chartcontwrapper {
+    background: rgba(255, 255, 255, 1);
+    height: 750px;
+}
+
+.chartcontwrapper .chartcont0 h2 {
+	width: 95%;
+    background: rgba(2, 100, 100, 0.6);
+}
+
+.chartcontwrapper .chartsearch0 h2 {
+    background: rgba(95, 174, 72, 0.6);
+}
+
+.chartcontwrapper .chartsearch0 {
+	margin-top: 53px;
+	margin-left: 20px;
+    float: left;
+    width: 18%;
+}
+.chartcontwrapper .chartcont0 {
+    float: left;
+    margin-left: -20px;
+    height: 650px!important;
+    width: 54%!important;
+}
+.chartcontwrapper .charttext0 {
+    float: right;
+    width: 20%;
+}
+.chartcontwrapper #chart0 {
+    width: 100%;
+    height: 420px!important;
+}
+
+#searchbox {
+	margin-top: 40px;
+	width: 100%;
+	height: 100%;
+}
+
+#searchbox p {
+	font-size: 14px;
+	font-family: Sans-serif;
+	color: black;
+}
+
+#searchbox #from, #searchbox #to {
+	width: 38%;
+	height: 20px;
+	border: 1px solid rgba(60, 60, 60, 0.6);
+}
+
+#searchbox #error {
+	width: 100%;
+	height: 10px;
+}
+
+#searchbox #subjectfield {
+	margin-top: 10px;
+}
+
+
+.pure-button {
+	height: 100px;
+	width: 100px;
+}
+
+#autocomplete {
+	width: 60%!important;
+}
+#searchbox #btn {
+	margin-top: 10px;
+	width: 80px;
+	height: 25px;
+}
+.buttons {
+	width: 500px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 30%;
+}
+
+.buttons li {
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+	height: 45px;
+}
+
+#footer_wrap {
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(0,0,0,0.5);
+}
+
+
+#footer_wrap p {
+	color: white;
+	font-family: Sans-Serif;
+	font-size: 16px;
+}
+
+#copyright {
+	position: relative;
+  	top: 30%;
+    width: 350px;
+  	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+}
+
+
+
+#mediaicons {
+	text-align: center;
+	line-height: 45px;
+	width: 350px;
+	height: 45px;
+	position:relative;
+	top: 20%;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom: 2px double grey;
+	padding-bottom: 20px;
+}
+
+
+.icon {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 32px;
+	height: 32px;
+}
+
+#mediaicons #twitter {
+	float: left;
+	background: rgba(0,0,0,0.6);
+	width: 180px;
+	height: 45px;
+}
+
+
+
+#mediaicons #facebook {
+	float: right;
+	margin-left: 20px;
+	background: rgba(0,0,0,0.6);
+	width: 150px;
+	height: 45px;
+}
+
+#facebook .icon {
+	background-image: url("../img/facebook.png");
+}
+
+#twitter .icon {
+	background-image: url("../img/twitter.png");
+}
+
+@media screen and (min-width: 1800px) {
+    #wrapper {
+       width: 75%;
+    }
+    .chartcontwrapper #chart0 {
+    	height: 500px!important;
+	}
+}
+
+
+
+
+
